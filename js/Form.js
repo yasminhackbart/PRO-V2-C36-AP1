@@ -1,8 +1,8 @@
 class Form {
   constructor() {
-    this.input = createInput("").attribute("placeholder", "Enter your name");
-    this.playButton = createButton("Play");
-    this.titleImg = createImg("./assets/title.png", "game title");
+    this.input = createInput("").attribute("placeholder", "Digite seu nome");
+    this.playButton = createButton("Jogar");
+    this.titleImg = createImg("./assets/title.png", "nome do jogo");
     this.greeting = createElement("h2");
   }
 
